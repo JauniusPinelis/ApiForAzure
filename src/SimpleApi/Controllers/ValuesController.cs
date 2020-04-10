@@ -20,6 +20,7 @@ namespace SimpleApi.Controllers
         {
             return new List<string>(){
                 "value1",
+                "value2",
                 "value2"
             };
         }
