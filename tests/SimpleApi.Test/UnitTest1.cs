@@ -14,5 +14,12 @@ namespace SimpleApi.Test
             var returnValue = valuesController.Get(1);
             Assert.Equal("value", returnValue);
         }
+
+        [Fact]
+        public void TestToFail()
+        {
+            var returnValue = valuesController.Get(1);
+            Assert.Equal("fail", returnValue);
+        }
     }
 }
