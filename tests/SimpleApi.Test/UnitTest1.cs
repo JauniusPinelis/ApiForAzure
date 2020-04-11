@@ -19,7 +19,7 @@ namespace SimpleApi.Test
         public void TestToFail()
         {
             var returnValue = valuesController.Get(1);
-            Assert.Equal("fail", returnValue);
+            Assert.Equal("value", returnValue);
         }
     }
 }
